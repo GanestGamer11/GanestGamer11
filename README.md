@@ -15,7 +15,7 @@
   <img align="center" alt="Rafa-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
   <img align="center" alt="Rafa-Figma" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
   <img align="center" alt="Rafa-Php" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg">
-  <img align="center" alt="Rafa-Mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
+  <img title="Mysql" align="center" alt"Mysql" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
   <img align="center" alt="Rafa-Canva" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/canva/canva-original.svg">
 </div>
   
