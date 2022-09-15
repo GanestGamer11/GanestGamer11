@@ -1,6 +1,6 @@
 ## #Aooooopa, Meu nome é Glaucyrlei, muito prazer 👋
 
-<div align="center">
+<div align="left">
   <a href="https://github.com/GanestGamer11">
   <img width="50%" src="https://github-readme-stats.vercel.app/api?username=GanestGamer11&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
   <!-- <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GanestGamer11&layout=compact&langs_count=7&theme=dark"/> -->
