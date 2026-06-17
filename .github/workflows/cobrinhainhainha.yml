@@ -1,23 +1,27 @@
-name: Generate Datas
+name: Generate Breakout Preview
 
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
-    name: Jobs to update datas
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Generate breakout SVG
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: GanestGamer11
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          games: "breakout"
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
