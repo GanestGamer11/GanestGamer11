@@ -13,17 +13,28 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Generate breakout SVG
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: GanestGamer11
-          games: "breakout"
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Push SVGs to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Generate Breakout SVGs
+        uses: cyprieng/github-breakout@v1
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_username: GanestGamer11
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Publish Breakout SVGs
+        run: |
+          git checkout --orphan github-breakout
+          git rm -rf .
+          mkdir -p images
+          mv output/light.svg images/breakout-light.svg
+          mv output/dark.svg images/breakout-dark.svg
+          git add images
+          git commit -m "chore: update breakout svg" || echo "No changes to commit"
+          git push --force origin github-breakout
