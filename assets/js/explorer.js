@@ -36,7 +36,7 @@ function makeLabelTexture(title, subtitle, theme, paletteId) {
   context.font = '700 35px "Space Grotesk", Arial, sans-serif';
   context.textAlign = 'center';
   context.textBaseline = 'middle';
-  context.fillText(title.length > 28 ? title.slice(0, 26) + '.' : title, 320, 62, 575);
+  context.fillText(title.length > 28 ? title.slice(0, 26) + '…' : title, 320, 62, 575);
   context.fillStyle = dark ? cssColor(palette.lavender) : cssColor(palette.dusk);
   context.font = '600 21px "DM Sans", Arial, sans-serif';
   context.fillText(subtitle.toUpperCase(), 320, 107, 570);
@@ -246,19 +246,19 @@ export async function mountExplorer(options) {
     scene.add(nodeGroup);
     projectNodes.push({ project: project, group: nodeGroup, orb: orb, ring: ring, baseEmissiveIntensity: orb.material.emissiveIntensity });
     const district = DISTRICTS[project.district];
-    const labelTexture = makeLabelTexture(project.title, (district ? district.name : typeLabelsFor(project.type)) + ' � ' + typeLabelsFor(project.type), document.documentElement.dataset.theme || 'dark', document.documentElement.dataset.palette);
+    const labelTexture = makeLabelTexture(project.title, (district ? district.name : typeLabelsFor(project.type)) + ' · ' + typeLabelsFor(project.type), document.documentElement.dataset.theme || 'dark', document.documentElement.dataset.palette);
     track(labelTexture);
     const label = new THREE.Sprite(new THREE.SpriteMaterial({ map: labelTexture, transparent: true, depthWrite: false }));
     label.scale.set(5.9, 1.38, 1);
     label.position.set(project.world[0], 4.25, project.world[1]);
     label.userData.projectId = project.id;
     scene.add(label);
-    labelSprites.push({ sprite: label, title: project.title, subtitle: (district ? district.name : '') + ' � ' + typeLabelsFor(project.type) });
+    labelSprites.push({ sprite: label, title: project.title, subtitle: (district ? district.name : '') + ' · ' + typeLabelsFor(project.type) });
   });
 
   function typeLabelsFor(type) {
     if (type === 'professional') return 'PROFISSIONAL';
-    if (type === 'academic') return 'ACAD�MICO';
+    if (type === 'academic') return 'ACADÊMICO';
     return 'PESSOAL';
   }
 
@@ -348,7 +348,7 @@ export async function mountExplorer(options) {
   function clearSelected() {
     if (!selectedProject) return;
     selectedProject = null;
-    options.selectedProjectName.textContent = 'Navegue at� um farol';
+    options.selectedProjectName.textContent = 'Navegue até um farol';
     options.openSelectedProject.disabled = true;
     projectNodes.forEach(function (item) {
       item.ring.scale.setScalar(1);
@@ -524,4 +524,3 @@ export async function mountExplorer(options) {
     }
   };
 }
-

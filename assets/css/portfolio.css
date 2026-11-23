@@ -676,4 +676,3 @@ dialog::backdrop { background: rgba(4, 10, 18, .78); backdrop-filter: blur(7px);
     transition-duration: .01ms !important;
   }
 }
-

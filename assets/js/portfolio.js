@@ -1,14 +1,14 @@
 const projects = [
   {
     id: 'sicadpro',
-    title: 'SICADPRO � Web + Mobile',
+    title: 'SICADPRO · Web + Mobile',
     type: 'professional',
     categories: ['systems', 'mobile'],
     tags: ['Java', 'Android', 'C#', 'REST', 'Oracle'],
-    description: 'Ecossistema corporativo para fiscaliza��o e servi�os de campo, com aplica��o Android, m�dulo desktop, checklists, formul�rios, anexos, relat�rios e sincroniza��o.',
-    contribution: 'Desenvolvimento e evolu��o de funcionalidades para aplica��es corporativas usadas em opera��es reais, conectando fluxos mobile, desktop e servi�os.',
-    context: 'Solu��o de gest�o e fiscaliza��o de energia que apoia equipes em campo e a opera��o administrativa.',
-    focus: 'Aplica��es conectadas, regras de neg�cio, anexos, relat�rios e sincroniza��o.',
+    description: 'Ecossistema corporativo para fiscalização e serviços de campo, com aplicação Android, módulo desktop, checklists, formulários, anexos, relatórios e sincronização.',
+    contribution: 'Desenvolvimento e evolução de funcionalidades para aplicações corporativas usadas em operações reais, conectando fluxos mobile, desktop e serviços.',
+    context: 'Solução de gestão e fiscalização de energia que apoia equipes em campo e a operação administrativa.',
+    focus: 'Aplicações conectadas, regras de negócio, anexos, relatórios e sincronização.',
     status: 'Sistema corporativo',
     images: ['assets/images/SicadPro/screenshot-01.png', 'assets/images/SicadPro/screenshot-02.png'],
     links: [],
@@ -18,14 +18,14 @@ const projects = [
   },
   {
     id: 'dashboards',
-    title: 'Dashboards & Opera��o',
+    title: 'Dashboards & Operação',
     type: 'professional',
     categories: ['systems', 'web', 'tools'],
     tags: ['PHP', 'Laravel', 'Symfony', 'MySQL'],
-    description: 'Interfaces administrativas com filtros dependentes, gr�ficos, indicadores, hist�rico, permiss�es e consultas para acompanhamento operacional.',
-    contribution: 'Implementa��o e manuten��o de m�dulos administrativos e recursos de consulta para apoiar processos de opera��o.',
-    context: 'Pain�is que organizam indicadores e registros usados no acompanhamento de atividades.',
-    focus: 'Filtros, visualiza��o de dados, hist�rico e consultas SQL.',
+    description: 'Interfaces administrativas com filtros dependentes, gráficos, indicadores, histórico, permissões e consultas para acompanhamento operacional.',
+    contribution: 'Implementação e manutenção de módulos administrativos e recursos de consulta para apoiar processos de operação.',
+    context: 'Painéis que organizam indicadores e registros usados no acompanhamento de atividades.',
+    focus: 'Filtros, visualização de dados, histórico e consultas SQL.',
     images: ['assets/images/Dashboards/screenshot-01.png', 'assets/images/Dashboards/screenshot-02.png'],
     links: [],
     district: 'operations',
@@ -34,14 +34,14 @@ const projects = [
   },
   {
     id: 'inspections',
-    title: 'Gerenciador de Inspe��es',
+    title: 'Gerenciador de Inspeções',
     type: 'professional',
     categories: ['systems', 'web', 'tools'],
-    tags: ['Web', 'Formul�rios', 'Dashboards'],
-    description: 'Plataforma de formul�rios personalizados para criar perguntas, associar usu�rios, registrar respostas e acompanhar dados e gr�ficos.',
-    contribution: 'Desenvolvimento e evolu��o de fluxos de formul�rios e recursos para acompanhar as respostas registradas.',
-    context: 'Ferramenta para estruturar inspe��es e transformar respostas em informa��o acompanh�vel.',
-    focus: 'Configura��o de formul�rios, respostas e visualiza��o de dados.',
+    tags: ['Web', 'Formulários', 'Dashboards'],
+    description: 'Plataforma de formulários personalizados para criar perguntas, associar usuários, registrar respostas e acompanhar dados e gráficos.',
+    contribution: 'Desenvolvimento e evolução de fluxos de formulários e recursos para acompanhar as respostas registradas.',
+    context: 'Ferramenta para estruturar inspeções e transformar respostas em informação acompanhável.',
+    focus: 'Configuração de formulários, respostas e visualização de dados.',
     images: ['assets/images/GerenciadorInspecoes/screenshot-01.png', 'assets/images/GerenciadorInspecoes/screenshot-02.png', 'assets/images/GerenciadorInspecoes/screenshot-03.png'],
     links: [],
     district: 'operations',
@@ -54,10 +54,10 @@ const projects = [
     type: 'personal',
     categories: ['games', 'web'],
     tags: ['Web Game', 'JavaScript', 'Em desenvolvimento'],
-    description: 'Jogo de sobreviv�ncia inspirado em FNAF: atravesse cinco noites enfrentando Floppas com comportamentos e mec�nicas pr�prias.',
-    contribution: 'Projeto autoral em desenvolvimento, com foco em mec�nicas de jogo, progress�o e atmosfera.',
-    context: 'Experi�ncia de suspense jog�vel direto no navegador.',
-    focus: 'Gameplay, progress�o e prototipa��o.',
+    description: 'Jogo de sobrevivência inspirado em FNAF: atravesse cinco noites enfrentando Floppas com comportamentos e mecânicas próprias.',
+    contribution: 'Projeto autoral em desenvolvimento, com foco em mecânicas de jogo, progressão e atmosfera.',
+    context: 'Experiência de suspense jogável direto no navegador.',
+    focus: 'Gameplay, progressão e prototipação.',
     status: 'Em desenvolvimento',
     images: ['assets/images/FiveFloppasAtNight/screenshot-01.png', 'assets/images/FiveFloppasAtNight/screenshot-02.png'],
     links: [{ label: 'Ver no itch.io', url: 'https://ganest11.itch.io/five-floppas-at-night' }],
@@ -70,10 +70,10 @@ const projects = [
     type: 'personal',
     categories: ['web', 'tools'],
     tags: ['Web', 'Tempo real', 'Full Stack'],
-    description: 'Sistema web de chat e compartilhamento de tela entre amigos, com salas, usu�rios, transmiss�es, controles e comunica��o em tempo real.',
-    contribution: 'Constru��o de uma experi�ncia web que combina comunica��o e compartilhamento de tela em salas.',
-    context: 'Ferramenta pessoal para aproximar conversa e transmiss�o em um s� lugar.',
-    focus: 'Salas, usu�rios, transmiss�o e comunica��o em tempo real.',
+    description: 'Sistema web de chat e compartilhamento de tela entre amigos, com salas, usuários, transmissões, controles e comunicação em tempo real.',
+    contribution: 'Construção de uma experiência web que combina comunicação e compartilhamento de tela em salas.',
+    context: 'Ferramenta pessoal para aproximar conversa e transmissão em um só lugar.',
+    focus: 'Salas, usuários, transmissão e comunicação em tempo real.',
     images: ['assets/images/ScreenShare/screenshot-01.png', 'assets/images/ScreenShare/screenshot-02.png'],
     links: [],
     district: 'tools',
@@ -81,14 +81,14 @@ const projects = [
   },
   {
     id: 'rpg-ai',
-    title: 'RPG Web Game � AI Master',
+    title: 'RPG Web Game · AI Master',
     type: 'personal',
     categories: ['games', 'web', 'tools'],
-    tags: ['Web Game', 'IA', 'Integra��o LLM'],
-    description: 'Jogo web de campanhas de RPG em que a intelig�ncia artificial atua como mestre, guiando personagens, di�logos, eventos, imagens e batalhas.',
-    contribution: 'Projeto autoral que explora como integrar gera��o de conte�do a uma experi�ncia de jogo.',
-    context: 'Campanhas de RPG em que a narrativa se adapta �s a��es de quem joga.',
-    focus: 'Narrativa, eventos, imagens e integra��o de modelos de linguagem.',
+    tags: ['Web Game', 'IA', 'Integração LLM'],
+    description: 'Jogo web de campanhas de RPG em que a inteligência artificial atua como mestre, guiando personagens, diálogos, eventos, imagens e batalhas.',
+    contribution: 'Projeto autoral que explora como integrar geração de conteúdo a uma experiência de jogo.',
+    context: 'Campanhas de RPG em que a narrativa se adapta às ações de quem joga.',
+    focus: 'Narrativa, eventos, imagens e integração de modelos de linguagem.',
     images: ['assets/images/RPGWebGame/screenshot-01.png', 'assets/images/RPGWebGame/screenshot-02.png', 'assets/images/RPGWebGame/screenshot-03.png'],
     links: [],
     district: 'arcade',
@@ -99,11 +99,11 @@ const projects = [
     title: 'Simulador Dopamina',
     type: 'personal',
     categories: ['games', 'web'],
-    tags: ['Web Game', 'JavaScript', 'Cr�tica social'],
-    description: 'Jogo e cr�tica social sobre excesso de est�mulos: sobreviva enquanto v�rias atividades disputam sua aten��o.',
-    contribution: 'Cria��o de uma experi�ncia interativa que transforma o tema em mec�nica de jogo.',
-    context: 'Um jogo curto sobre disputa por aten��o e excesso de est�mulos.',
-    focus: 'Intera��o, ritmo e comunica��o por meio de mec�nicas.',
+    tags: ['Web Game', 'JavaScript', 'Crítica social'],
+    description: 'Jogo e crítica social sobre excesso de estímulos: sobreviva enquanto várias atividades disputam sua atenção.',
+    contribution: 'Criação de uma experiência interativa que transforma o tema em mecânica de jogo.',
+    context: 'Um jogo curto sobre disputa por atenção e excesso de estímulos.',
+    focus: 'Interação, ritmo e comunicação por meio de mecânicas.',
     images: ['assets/images/SimuladorDopamina/screenshot-01.png'],
     links: [],
     district: 'arcade',
@@ -111,14 +111,14 @@ const projects = [
   },
   {
     id: 'alisa-floppa',
-    title: 'Alisa Meu Pelo � Floppa',
+    title: 'Alisa Meu Pelo · Floppa',
     type: 'personal',
     categories: ['games', 'web'],
     tags: ['Web Game', 'Publicado'],
-    description: 'Jogo web publicado no itch.io: alise o Floppa o m�ximo poss�vel.',
-    contribution: 'Cria��o e publica��o de um jogo casual de navegador.',
-    context: 'Uma experi�ncia curta e bem-humorada para jogar direto na web.',
-    focus: 'Intera��o simples e publica��o web.',
+    description: 'Jogo web publicado no itch.io: alise o Floppa o máximo possível.',
+    contribution: 'Criação e publicação de um jogo casual de navegador.',
+    context: 'Uma experiência curta e bem-humorada para jogar direto na web.',
+    focus: 'Interação simples e publicação web.',
     images: ['assets/images/AlisaMeuPelo/screenshot-01.png'],
     links: [{ label: 'Jogar no itch.io', url: 'https://ganest11.itch.io/alisa-meu-pelo-floppa' }],
     district: 'arcade',
@@ -129,11 +129,11 @@ const projects = [
     title: 'G-Tierlist',
     type: 'personal',
     categories: ['web', 'tools'],
-    tags: ['Web', 'Organiza��o', 'GitHub Pages'],
+    tags: ['Web', 'Organização', 'GitHub Pages'],
     description: 'Plataforma web para criar e gerenciar tier lists, organizando elementos em rankings personalizados.',
     contribution: 'Desenvolvimento de uma ferramenta web independente para montar e organizar listas.',
     context: 'Um jeito simples de comparar e ordenar itens de interesse.',
-    focus: 'Cria��o e gerenciamento de rankings personalizados.',
+    focus: 'Criação e gerenciamento de rankings personalizados.',
     images: ['assets/images/GTierList/screenshot-01.png'],
     links: [{ label: 'Abrir projeto', url: 'https://ganestgamer11.github.io/G-TierList/' }],
     district: 'tools',
@@ -145,10 +145,10 @@ const projects = [
     type: 'personal',
     categories: ['web', 'tools'],
     tags: ['Web', 'Registro pessoal', 'GitHub Pages'],
-    description: 'Site pessoal para registrar jogos jogados e as avalia��es atribu�das em cada per�odo.',
-    contribution: 'Cria��o de um espa�o pessoal para catalogar jogos e avalia��es.',
-    context: 'Registro naveg�vel de experi�ncias com jogos.',
-    focus: 'Organiza��o e apresenta��o de um cat�logo pessoal.',
+    description: 'Site pessoal para registrar jogos jogados e as avaliações atribuídas em cada período.',
+    contribution: 'Criação de um espaço pessoal para catalogar jogos e avaliações.',
+    context: 'Registro navegável de experiências com jogos.',
+    focus: 'Organização e apresentação de um catálogo pessoal.',
     images: ['assets/images/MyGamesPlayed/screenshot-01.png', 'assets/images/MyGamesPlayed/screenshot-02.png'],
     links: [{ label: 'Abrir projeto', url: 'https://ganestgamer11.github.io/MyGames-Ganest11/' }],
     district: 'tools',
@@ -159,11 +159,11 @@ const projects = [
     title: 'Clicker Game',
     type: 'personal',
     categories: ['games', 'web'],
-    tags: ['Web Game', 'JavaScript', 'Progress�o'],
-    description: 'Um dos primeiros jogos web: clicker com sistema de upgrades e progress�o, desenvolvido principalmente em JavaScript.',
-    contribution: 'Projeto autoral de aprendizado com evolu��o incremental e melhorias de gameplay.',
-    context: 'Jogo de cliques em que upgrades mudam o ritmo da progress�o.',
-    focus: 'Progress�o, upgrades e l�gica de jogo.',
+    tags: ['Web Game', 'JavaScript', 'Progressão'],
+    description: 'Um dos primeiros jogos web: clicker com sistema de upgrades e progressão, desenvolvido principalmente em JavaScript.',
+    contribution: 'Projeto autoral de aprendizado com evolução incremental e melhorias de gameplay.',
+    context: 'Jogo de cliques em que upgrades mudam o ritmo da progressão.',
+    focus: 'Progressão, upgrades e lógica de jogo.',
     images: ['assets/images/ClickerGame/screenshot-01.png'],
     links: [{ label: 'Abrir projeto', url: 'https://ganestgamer11.github.io/Clicker-game-projeto01/' }],
     district: 'arcade',
@@ -174,11 +174,11 @@ const projects = [
     title: 'Meow Search',
     type: 'academic',
     categories: ['web', 'tools'],
-    tags: ['Web', 'Acad�mico', 'Busca'],
-    description: 'Projeto acad�mico: uma vers�o divertida e personalizada de mecanismo de busca, inspirada no Google e com tem�tica de gatos.',
-    contribution: 'Desenvolvimento de uma interface de busca tem�tica como projeto acad�mico.',
+    tags: ['Web', 'Acadêmico', 'Busca'],
+    description: 'Projeto acadêmico: uma versão divertida e personalizada de mecanismo de busca, inspirada no Google e com temática de gatos.',
+    contribution: 'Desenvolvimento de uma interface de busca temática como projeto acadêmico.',
     context: 'Experimento de interface web inspirado em mecanismos de busca.',
-    focus: 'Busca, identidade visual e organiza��o de conte�do.',
+    focus: 'Busca, identidade visual e organização de conteúdo.',
     images: ['assets/images/MeowSearch/screenshot-01.png'],
     links: [{ label: 'Abrir projeto', url: 'https://ganestgamer11.github.io/Meow-Search/' }],
     district: 'archive',
@@ -190,10 +190,10 @@ const projects = [
     type: 'academic',
     categories: ['games', 'web'],
     tags: ['Unity', 'C#', 'Projeto de TCC'],
-    description: 'Jogo desenvolvido ao longo de dois anos como projeto de TCC do curso t�cnico, apresentado em uma p�gina web pr�pria.',
-    contribution: 'Desenvolvimento do jogo com Unity e C#, al�m da p�gina de apresenta��o do projeto.',
-    context: 'Projeto de conclus�o do curso T�cnico em Inform�tica para Internet.',
-    focus: 'Desenvolvimento de jogo e apresenta��o web.',
+    description: 'Jogo desenvolvido ao longo de dois anos como projeto de TCC do curso técnico, apresentado em uma página web própria.',
+    contribution: 'Desenvolvimento do jogo com Unity e C#, além da página de apresentação do projeto.',
+    context: 'Projeto de conclusão do curso Técnico em Informática para Internet.',
+    focus: 'Desenvolvimento de jogo e apresentação web.',
     images: ['assets/images/Septandara/screenshot-01.png', 'assets/images/Septandara/screenshot-02.png', 'assets/images/Septandara/screenshot-03.png', 'assets/images/Septandara/screenshot-04.png'],
     links: [{ label: 'Abrir projeto', url: 'https://ganestgamer11.github.io/septandara/' }],
     district: 'archive',
@@ -220,7 +220,7 @@ const categoryLabels = {
 const typeLabels = {
   professional: 'Profissional',
   personal: 'Pessoal',
-  academic: 'Acad�mico'
+  academic: 'Acadêmico'
 };
 const state = { type: 'all', category: 'all', tag: 'all', query: '' };
 const projectGrid = document.getElementById('projectGrid');
@@ -284,7 +284,7 @@ function projectCard(project) {
   details.type = 'button';
   details.dataset.openProject = project.id;
   details.append(document.createTextNode(' '));
-  const arrow = node('span', '', '?');
+  const arrow = node('span', '', '↗');
   arrow.setAttribute('aria-hidden', 'true');
   details.append(arrow);
   footer.append(details);
@@ -366,7 +366,7 @@ function openProject(projectId) {
   const type = node('span', 'project-type', typeLabels[project.type]);
   type.dataset.type = project.type;
   top.append(type);
-  const close = node('button', 'icon-button', '�');
+  const close = node('button', 'icon-button', '×');
   close.type = 'button';
   close.setAttribute('aria-label', 'Fechar detalhes do projeto');
   close.addEventListener('click', function () { projectDialog.close(); });
@@ -414,9 +414,9 @@ function openProject(projectId) {
   const blocks = node('div', 'detail-body');
   [
     ['Contexto', project.context],
-    ['Contribui��o', project.contribution],
+    ['Contribuição', project.contribution],
     ['Foco do projeto', project.focus],
-    ['Categoria', project.categories.map(function (category) { return categoryLabels[category] || category; }).join(' � ')]
+    ['Categoria', project.categories.map(function (category) { return categoryLabels[category] || category; }).join(' · ')]
   ].forEach(function (entry) {
     const block = node('section', 'detail-block');
     block.append(node('h3', '', entry[0]));
@@ -431,7 +431,7 @@ function openProject(projectId) {
 
   const links = node('div', 'detail-links');
   project.links.forEach(function (link) {
-    const anchor = node('a', 'detail-link', link.label + ' ?');
+    const anchor = node('a', 'detail-link', link.label + ' ↗');
     anchor.href = link.url;
     anchor.target = '_blank';
     anchor.rel = 'noopener noreferrer';
@@ -574,13 +574,13 @@ function showExplorerFallback(reason) {
   document.getElementById('touchControls').hidden = true;
   explorerFallback.hidden = false;
   const description = explorerFallback.querySelector('p');
-  if (reason) description.textContent = reason + ' O cat�logo continua dispon�vel por esta lista.';
+  if (reason) description.textContent = reason + ' O catálogo continua disponível por esta lista.';
   fallbackProjects.replaceChildren();
   projects.forEach(function (project) {
     const button = node('button', 'fallback-project');
     button.type = 'button';
     button.append(node('strong', '', project.title));
-    button.append(node('small', '', typeLabels[project.type] + ' � ' + project.categories.map(function (category) { return categoryLabels[category] || category; }).join(' / ')));
+    button.append(node('small', '', typeLabels[project.type] + ' · ' + project.categories.map(function (category) { return categoryLabels[category] || category; }).join(' / ')));
     button.addEventListener('click', function () { openProject(project.id); });
     fallbackProjects.append(button);
   });
@@ -602,10 +602,10 @@ async function startExplorer() {
     });
     explorerStarted = true;
   } catch (error) {
-    console.error('N�o foi poss�vel iniciar o mapa 3D:', error);
+    console.error('Não foi possível iniciar o mapa 3D:', error);
     const reason = window.location.protocol === 'file:'
-      ? 'O mapa 3D precisa ser aberto por localhost ou pelo site em HTTPS. O navegador bloqueia m�dulos ao abrir o HTML diretamente como arquivo.'
-      : 'O mapa 3D n�o conseguiu carregar. Confira o acesso � biblioteca externa e o suporte a WebGL neste navegador.';
+      ? 'O mapa 3D precisa ser aberto por localhost ou pelo site em HTTPS. O navegador bloqueia módulos ao abrir o HTML diretamente como arquivo.'
+      : 'O mapa 3D não conseguiu carregar. Confira o acesso à biblioteca externa e o suporte a WebGL neste navegador.';
     showExplorerFallback(reason);
   } finally {
     explorerLoading = false;
@@ -634,7 +634,7 @@ explorerDialog.addEventListener('close', function () {
     explorerInstance = null;
     explorerStarted = false;
     selectedProjectId = null;
-    selectedProjectName.textContent = 'Navegue at� um farol';
+    selectedProjectName.textContent = 'Navegue até um farol';
     openSelectedProject.disabled = true;
   }
 });
@@ -643,4 +643,3 @@ explorerDialog.addEventListener('click', function (event) {
 });
 
 window.portfolioProjects = projects;
-
